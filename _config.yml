@@ -1,0 +1,23 @@
+title: "김용태"
+email: your@email.com
+description: >-
+  Developer · Artist · Racing Coach
+baseurl: ""
+url: "https://yourusername.github.io"
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+author:
+  name: "김용태"
+  avatar: "/assets/images/profile.jpg"
+  bio: "경력 25년 개발자이자 화가, 그리고 레이싱 코치"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
